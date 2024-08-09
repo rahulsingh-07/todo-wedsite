@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .strikethrough-blue {
+      @apply line-through;
+      text-decoration-color: blue;
+    }
+  }
